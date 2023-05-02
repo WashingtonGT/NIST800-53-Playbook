@@ -1,5 +1,6 @@
 site_name: NIST 800-53 Playbook
 nav:
+    - Home: index.md
     - Access Control: 
         - AC-1: ac/ac-1.md
     - About: about.md
