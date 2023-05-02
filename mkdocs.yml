@@ -1,0 +1,55 @@
+site_name: NIST 800-53 Playbook
+nav:
+    - Access Control: ac/ac-1.md
+    - About: about.md
+    
+copyright: Copyright &copy; 2023 Washington GT.
+    
+    
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true   
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+    
+theme: 
+    name: material
+    features:
+        - content.tabs.link
+
+#### list of themes ####
+## material
+## theme: readthedocs
+
+extra:
+  analytics:
+    provider: google
+    property: G-FVH8RBS1KG
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://github.com/WashingtonGT/soc2-playbook/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
